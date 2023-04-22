@@ -6,8 +6,8 @@
 ###### This is H6
 
 
--[Welcome](# Welcome visitors)
--[the_explanation](# Content explanation)
+-[Welcome_visitors](#Welcome visitors)
+-[the_explanation](#Content explanation)
 
 
 ### Welcome visitors
