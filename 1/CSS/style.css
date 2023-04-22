@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    background: #000;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.card {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease;
+}
+.card:hover {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+.card .img {
+    width: 50%;
+    margin-top: 50px;
+    float: left;
+}
+.card .img img {
+    max-width: 350px;
+    height: auto;
+    display: block;
+    padding: 30px;
+}
+.card .content {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #f7f5f6;
+    position: relative;
+    padding: 70px 40px;
+}
+.card h2 {
+    font-weight: normal;
+    letter-spacing: 3px;
+    font-size: 110%;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #f49b6f;
+}
+.card h1 {
+    margin-top: 6px;
+    color: #2e2e2e;
+    margin-bottom: 15px;
+}
+.card p {
+    color: #a9a7a8;
+    margin-bottom: 15px;
+}
+.buy {
+    margin-left: 20px;
+}
+.buy span.price {
+    font-size: 160%;
+    color: #949293;
+    margin-right: 20px;
+}
