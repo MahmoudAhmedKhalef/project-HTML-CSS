@@ -6,11 +6,11 @@
 ###### This is H6
 
 
--[Welcome_visitors](#Welcome visitors)
--[the_explanation](#Content explanation)
+-[Welcome_visitors](#Welcome_visitors)
+-[the_explanation](#Content_explanation)
 
 
-### Welcome visitors
+### Welcome_visitors
 Mr/Mrs
 I want to welcome you to some of my work in HTML & CSS programming languages
 
@@ -18,7 +18,7 @@ I want to welcome you to some of my work in HTML & CSS programming languages
 ![ALT "markdown image"](https://w7.pngwing.com/pngs/377/487/png-transparent-web-development-illustration-css-html-thumbnail.png 'Title')
 
 
-### Content explanation
+### Content_explanation
 
 it contains:-
 1-
