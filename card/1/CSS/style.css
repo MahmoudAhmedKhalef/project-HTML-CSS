@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-53%);
+}
+.PUBBox {
+    width: 280px;
+    height: 450px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.PUBBox img {
+    width: 90%;
+    margin: 5%;
+    border-radius: 5px;
+}
+.PUBBox h2 {
+    color: brown;
+    text-align: center;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.PUBBox p{
+    color: black;
+    margin: 15px 20px;
+    font-weight: bold;
+}
+.PUBBox button {
+    background-color: crimson;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 30px;
+    margin: 15px 35%;
+    border-radius: 5px;
+    color: bisque;
+    font-weight: bold;
+}
+.PUBBox button:hover {
+    background-color: black;
+}
