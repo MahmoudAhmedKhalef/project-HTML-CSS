@@ -1,0 +1,91 @@
+body {
+  background-image: url(../Images/1.png);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+h1 {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+  
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  border-radius: 10px;
+}
+  
+label {
+  font-family: Arial, sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #fff;
+}
+  
+input[type="text"],input[type="password"],
+input[type="password"],input[type="email"] {
+  display: inline-block;
+  border: none;
+  text-align: left;
+  box-shadow: 3px 2px rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  width: 350px;
+  margin: 10px 0;
+  background: transparent;
+  color: #fff;
+  font-size: 1em;
+}
+  
+input[type="text"]:focus {
+  background: none;
+  border: none;
+  color: #fff;
+}
+  
+button {
+  background: transparent;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 20px 0;
+  padding: 10px 30px;
+  border: 2px solid #fff;
+  font-size: 1em;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border-radius: 20px;
+}
+  
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #182848;
+}
+  
+#login-button {
+  float: right;
+}
+    
+#signup-button {
+  float: right;
+}
+  
+#login-form {
+  display: none;
+}
+  
+#login-form label,
+#login-form input[type="text"] {
+  margin-top: 20px;
+}
+  
+#login-form button {
+  margin-top: 30px;
+}
+  
